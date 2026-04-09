@@ -23,7 +23,7 @@ INITIAL DATASET LOAD FROM HUGGINGFACE
 """
 
 #INSERT YOUR HUGGINGFACE READ-ONLY TOKEN HERE INSIDE QUOTES
-login("INSERT HF TOKEN HERE")
+login("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")
 
 #LOAD THE DATASET, EXTRACT ONLY THE TEXT ENTRIES
 ds = load_dataset("acflp/YANKARI", split="train")
@@ -46,12 +46,12 @@ FORMAT:
 
 #RANDOMLY SPLIT 88% TRAIN
 split_1 = ds_text.train_test_split(test_size=0.12, seed=42)
-train_ds = split_1['train'] 
+train_ds = split_1['train']
 temp_ds = split_1['test']
 #RANDOMLY SPLIT 6% DEV, 6% TEST
 split_2 = temp_ds.train_test_split(test_size=0.5, seed=42)
-dev_ds = split_2['train']   
-test_ds = split_2['test'] 
+dev_ds = split_2['train']
+test_ds = split_2['test']
 
 #DIACRITIC STRIPPING FUNCTION
 #FOR CREATING DIACRITIC-FREE INPUT ENTRIES
@@ -71,9 +71,9 @@ def preprocess_hf(example):
     }
 
 #RUN TEXT PREPROCESSING ON ALL SPLITS
-train_ds = train_ds.map(preprocess_hf, remove_columns=['text'])
-dev_ds = dev_ds.map(preprocess_hf, remove_columns=['text'])
-test_ds = test_ds.map(preprocess_hf, remove_columns=['text'])
+train_ds = train_ds.map(preprocess_hf, remove_columns=['text'],num_proc=6)
+dev_ds = dev_ds.map(preprocess_hf, remove_columns=['text'],num_proc=6)
+test_ds = test_ds.map(preprocess_hf, remove_columns=['text'],num_proc=6)
 
 #USE TRAIN SET FOR TRAINING
 dataset = train_ds 
@@ -107,14 +107,14 @@ def preprocess(example):
         padding="max_length",
         #CAPS LONG ENTRIES TO 256
         #WE MIGHT WANT TO EXTEND THIS, OR IMPLEMENT SLIDING WINDOW, SINCE THIS LOSES INPUT INFORMATION
-        max_length=256,
+        max_length=1024,
     )
     #TOKENIZE TARGET, SAME SETUP
     labels = tokenizer(
         example["target_text"],
         truncation=True,
         padding="max_length",
-        max_length=256,
+        max_length=1024,
     )["input_ids"]
 
     #PADDING TOKENS
@@ -286,7 +286,7 @@ with torch.no_grad():
         generated = model.generate(
             input_ids=input_ids,
             attention_mask=attention_mask,
-            max_length=256
+            max_length=1024
         )
         #CONVERT PREDICTIONS BACK TO REAL TEXT
         preds = [decode(g) for g in generated]
