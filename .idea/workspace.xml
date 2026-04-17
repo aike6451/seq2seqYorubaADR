@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db4366fd-698b-4c24-932c-7569b49f934c" name="Changes" comment="cleared outputs and token" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="fresh-start" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JAYAM5&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/aike6451/seq2seqYorubaADR.git&quot;,
+    &quot;accountId&quot;: &quot;23f304c7-1488-4bbd-a202-cdeb1ad773ae&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3BsVFSB0OWJMugpkIB0vdofSifZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.yoruba_adr_WIP.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "git.auto.fetch.suggestion.counter": "3",
+    "last_opened_file_path": "/home/jay/PycharmProjects/seq2seqYorubaADR/eval",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eval" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/eval" />
+      <recent name="$PROJECT_DIR$/training" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-PY-261.22158.340" />
+        <option value="bundled-python-sdk-b63d5a1f7c97-b61e75351b1f-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.22158.340" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db4366fd-698b-4c24-932c-7569b49f934c" name="Changes" comment="" />
+      <created>1775277661185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775277661185</updated>
+      <workItem from="1775277662213" duration="56178000" />
+      <workItem from="1776045212120" duration="364000" />
+      <workItem from="1776045768155" duration="22002000" />
+      <workItem from="1776312259292" duration="8229000" />
+    </task>
+    <task id="LOCAL-00001" summary="added bleu scores, added training for models of context sizes 256 and 512">
+      <option name="closed" value="true" />
+      <created>1775770279682</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775770279682</updated>
+    </task>
+    <task id="LOCAL-00002" summary="separate jupyter files for ablation training and eval runs">
+      <option name="closed" value="true" />
+      <created>1776199472689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1776199472689</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated comments">
+      <option name="closed" value="true" />
+      <created>1776200262934</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776200262934</updated>
+    </task>
+    <task id="LOCAL-00004" summary="clean notebooks for eval and train">
+      <option name="closed" value="true" />
+      <created>1776311871802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1776311871802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="clean notebooks for eval and train">
+      <option name="closed" value="true" />
+      <created>1776313556273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776313556273</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cleared outputs and token">
+      <option name="closed" value="true" />
+      <created>1776313793516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776313793516</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added bleu scores, added training for models of context sizes 256 and 512" />
+    <MESSAGE value="separate jupyter files for ablation training and eval runs" />
+    <MESSAGE value="updated comments" />
+    <MESSAGE value="clean notebooks for eval and train" />
+    <MESSAGE value="cleared outputs and token" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleared outputs and token" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/seq2seqYorubaADR$yoruba_adr_WIP.coverage" NAME="yoruba_adr_WIP Coverage Results" MODIFIED="1775280095821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
