@@ -8,7 +8,7 @@ Returns evaluation results along metrics BLEU (Bilingual Evaluation Understudy) 
 
 Directory:
 
-Training
+Training:
 Files for executing model finetuning on Byt5 Small and Base models at varied training parameters, outputs trained parameters to local root directory.
 Assumes user access to Yankari 2024 Huggingsace dataset.
 
